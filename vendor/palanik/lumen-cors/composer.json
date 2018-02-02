@@ -1,0 +1,30 @@
+{
+    "name": "palanik/lumen-cors",
+    "description": "Cross-origin resource sharing (CORS) middleware for Lumen micro-framework.",
+    "keywords": [
+        "corslumen",
+        "lumencors",
+        "cors",
+        "lumen",
+        "laravel",
+        "cross-origin",
+        "preflight"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/palanik/lumen-cors",
+    "authors": [
+        {
+            "name": "palanik"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "palanik\\lumen\\Middleware\\": "."
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
